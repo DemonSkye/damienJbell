@@ -1,0 +1,161 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 125%;
+}
+h3{
+    font-size: 1.1rem;
+    font-weight: 105%;
+}
+.self{
+    background-color: rgb(96, 26, 202);
+    display: inline-block;
+    position: fixed;
+    Height: 100%;
+    min-height: 500px;
+    width: 40%;
+}
+.self .sig{
+    font-size: 2.2rem;
+    font-family: 'Great Vibes', cursive, 'Dancing Script', cursive, 'Satisfy', cursive;
+    color: #EEEEEE;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+
+}
+.self .main{
+    top: 55%;
+    margin: 0;
+    position: relative;
+    transform: translateY(-60%);
+    width: 100%
+}
+.self .main .text{
+    display: block;
+    margin: 10px auto auto auto;
+    color:white;
+    text-align: center;
+}
+.self .main .selfie{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    box-shadow: 0 7px 10px rgb(126, 102, 161);
+}
+.self .social{
+    position: absolute;
+    right: 25px;
+    bottom: 100px;
+    height: 30px;
+    color:white;
+}
+
+.experience{
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    
+}
+.experience .about{
+    display: block;
+    margin: 30px 0 0 0;
+    clear: both;
+    overflow: auto;
+}
+
+.experience .skills{
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+
+.experience .gutter{
+    float: left;
+    clear: both;
+    width: 95px; 
+    margin-right: 35px;
+    color: rgb(112, 47, 197);
+    font-size: 1.3rem;
+    font-weight: 110%;
+}
+
+.experience .list{
+    float: left;
+    clear: both;
+    margin: 0px 0 0 93px;
+    font-size: 1.35rem;
+}
+
+.experience .list li::marker{
+    content: "\2605";
+    color: rgb(112, 47, 197);
+    font-size: .83rem;
+}
+
+.experience .copy{
+    float: left;
+    width: 75%;
+    max-width: 800px;
+    line-height: 22px;
+    font-size: 1.15rem;
+    color: rgb(48, 44, 44);
+    word-wrap: break-word;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+.experience .work{
+    display: block;
+    margin: 30px 0 0 0;
+    clear: both;
+    overflow: auto;
+}
+
+.experience .work .job{
+    margin-left: 130px;
+    clear: both;
+    max-width: 800px;
+    margin-bottom: 20px;
+    height: 41px;
+}
+.experience .work .job .info{
+    float: left;
+}
+
+.experience .work .job .info .name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+}
+
+.experience .work .job .info .title{
+    display: block;
+}
+.experience .work .job .year{
+    float: right;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
